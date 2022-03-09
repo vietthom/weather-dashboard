@@ -5,10 +5,10 @@
 }
 
 .header{
+    color: white;
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: lightblue;
-    padding: 50px;
+    justify-content: center;
 }
+
 
