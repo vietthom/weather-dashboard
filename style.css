@@ -5,10 +5,20 @@
 }
 
 .header{
-    color: white;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    color: white;
+    padding: 50px;
 }
 
+.search-bar{
+    padding-top: 20px;
+    padding-left: 20px;
+}
 
+.search-section{
+    display: flex;
+    flex-direction: column;
+}

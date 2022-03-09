@@ -23,47 +23,40 @@ rel="stylesheet"
     <title>Weather Dashboard</title>
 </head>
 <body>
-
-    <div class="container-fluid">
-        <div class="row navbar bg-info">
-            <div class="col-12 header">
-                <h1>Weather Dashboard</h1>
+<main>
+    <!-- header -->
+    <div class="header">
+        <h1>Weather Dashboard</h1>
+    </div>
+    <!-- Search bar-->
+    <div class="search-section">
+        <div class="search-bar">
+            <div class="search-title">
+                <h4>Search for city:</h4>
             </div>
+            <div class="input-group">
+                <div class="form-outline">
+                  <input type="search" id="searchCity" class="form-control" />
+                  <label class="form-label" for="form1">e.g. Denver</label>
+                </div>
+                <button type="button" class="btn btn-primary">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
         </div>
 
-        <div class="row">
-            <div class="col-3 bg-light pb-2 pt-3" id="searchForCities">
-                <div class="row">
-                    <div class="col-12">
-                        <h4>Search for a City:</h4>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-12">
-                        <div class="input-group">
-                            <input class="form-control" type="text" id="searchCity"
-                                placeholder="e.g. Denver"><button type="button" id="searchBtn"
-                                class="btn btn-primary"><i class="fas fa-search"></i></button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row mt-3">
-                    <div class="col-12">
-
-                        <ul id="searchHistory" class="list-group">
-                            <!-- append li here li class="list-group-item"-->
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
+        <div class="searchList">
+            <ul id="searchHistory">
+                <!-- append li here li class='list-group-item' -->
+            </ul>
+        </div>
+    </div>
+    <!--  -->
+</main>
 
 
-
-
-    <!-- MDB -->
+        
+   
 <script
 type="text/javascript"
 src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"
