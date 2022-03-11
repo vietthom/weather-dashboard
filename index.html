@@ -28,11 +28,14 @@ rel="stylesheet"
 <body>
  
     <div class="card search-section">
-        <div class=" search input-group rounded">
-            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-            <span class="input-group-text border-0" id="search-addon">
+        <div class="search-title"><h1>Search for a city:</h1></div>
+        <div class=" search input-group">
+            <div class="form-outline">
+              <input type="search" class="search-input form-control" />
+            </div>
+            <button type="button" class="search-button btn btn-outline-light">
               <i class="fas fa-search"></i>
-            </span>
+            </button>
           </div>
     </div>
 
@@ -42,8 +45,10 @@ rel="stylesheet"
                 <h2 class="city">Weather in Denver</h2>
             </div>
             <h1 class="temp">51°F</h1>
-            <img class="icon"src="" alt="">
+            <div class="flex">
+                <img class="icon"src="https://openweathermap.org/img/wn/02n.png" alt="weather-icon">
             <div class="description">Cloudy</div>
+            </div>
             <div class="humidity">Humidity: 60%</div>
             <div class="wind">Wind speed: 3 mph</div>
             <div class="uvIndex">UV index: 4</div>

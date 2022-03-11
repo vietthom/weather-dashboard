@@ -10,10 +10,17 @@ body{
     position: relative;
     display: flex;
     font-family: 'Questrial', sans-serif;
-    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    background-image: url('https://source.unsplash.com/1600x900/?cities');
     background-repeat: no-repeat;
     background-size: cover;
 }
+.search{
+    padding: 20px;
+}
+.search-title{
+    padding: 20px;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -21,8 +28,8 @@ body{
 }
 
 .currentWeather{
-    width: 400px;
-    height: 250px;
+    width: 500px;
+    height: auto;
     background: #eaeaea;
     padding: 2em;
     margin: 1em;
@@ -35,4 +42,17 @@ body{
     color: white;
 }
 
+.icon{
+    width: 50px;
+}
+
+.description{
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
 
