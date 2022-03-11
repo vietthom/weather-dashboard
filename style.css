@@ -17,6 +17,9 @@ body{
 .search{
     padding: 20px;
 }
+.form-control:focus{
+color: white;
+}
 .search-title{
     padding: 20px;
 }
