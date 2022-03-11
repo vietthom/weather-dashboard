@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
 <link
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
@@ -23,8 +26,113 @@ rel="stylesheet"
     <title>Weather Dashboard</title>
 </head>
 <body>
-    
+ 
+    <div class="card search-section">
+        <div class=" search input-group rounded">
+            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+            <span class="input-group-text border-0" id="search-addon">
+              <i class="fas fa-search"></i>
+            </span>
+          </div>
+    </div>
 
+    <div class="container">
+        <div class="card currentWeather">
+            <div class="weather">
+                <h2 class="city">Weather in Denver</h2>
+            </div>
+            <h1 class="temp">51°F</h1>
+            <img class="icon"src="" alt="">
+            <div class="description">Cloudy</div>
+            <div class="humidity">Humidity: 60%</div>
+            <div class="wind">Wind speed: 3 mph</div>
+            <div class="uvIndex">UV index: 4</div>
+        </div>
+    </div>
+
+
+    <!-- <section class="side-bar">
+        <div class="search-title">
+            <h4>Search for a city:</h4>
+        </div> 
+        <div class="search-bar">
+            <div class="input-group">
+                <div class="form-outline">
+                    <input type="search" id="form1" class="form-control" />
+                    <label class="form-label" for="form1">Search</label>
+                </div>
+                <button type="button" class="btn btn-primary">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="search history">
+            <ul></ul>
+        </div> 
+    </section>
+
+    <div class="container">
+
+        <div class="card text-center">
+            <div class="card-header"><h3>Current Weather</h3></div>
+            <div class="card-body">
+              <h5 class="card-title" id="cityName">City</h5>
+              <div id="weatherImage"></div>
+              <div id="temp"></div>
+              <div id="wind"></div>
+              <div id="Humidity"></div>
+              <div id="uvIndex"></div>
+            
+            </div>
+            <div class="card-footer text-muted">
+                <h4>5-day Forcast</h4>
+                <div class="forcast">
+                    <div class="card forcastCard" id="dayOne">
+                        <div id="date"></div>
+                        <div id="forcast-image"></div>
+                        <div id="forcastTemp"></div>
+                        <div id="forcastWind"></div>
+                        <div id="forcastHumidity"></div>  
+                    </div>
+                    <div class="card forcastCard" id="dayTwo">
+                        <div id="date"></div>
+                        <div id="forcast-image"></div>
+                        <div id="forcastTemp"></div>
+                        <div id="forcastWind"></div>
+                        <div id="forcastHumidity"></div>
+                    </div>
+                    <div class="card forcastCard"id="dayThree">
+                        <div id="date"></div>
+                        <div id="forcast-image"></div>
+                        <div id="forcastTemp"></div>
+                        <div id="forcastWind"></div>
+                        <div id="forcastHumidity"></div>
+                    </div>
+                    <div class="card forcastCard" id="dayFour">
+                        <div id="date"></div>
+                        <div id="forcast-image"></div>
+                        <div id="forcastTemp"></div>
+                        <div id="forcastWind"></div>
+                        <div id="forcastHumidity"></div>
+                    </div>
+                    <div class="card forcastCard" id="dayFive">
+                        <div id="date"></div>
+                        <div id="forcast-image"></div>
+                        <div id="forcastTemp"></div>
+                        <div id="forcastWind"></div>
+                        <div id="forcastHumidity"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    
+   
+    
+    
 
         
    
