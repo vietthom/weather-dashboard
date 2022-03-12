@@ -16,7 +16,7 @@
 // WHEN I open the weather dashboard
 // THEN I am presented with the last searched city forecast
 const searchButton= document.querySelector(".search-button");
-const keyUp= document.querySelector(".search-input");
+const searchInput= document.querySelector(".search-input");
 
 
 
@@ -42,15 +42,18 @@ let weather ={
         document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name + "')";
     },
     search: function(){
-    this.fetchWeather(document.querySelector(".search-input").value);
+    this.fetchWeather(searchInput.value);
     }
 };
+
+
+
 
 searchButton.addEventListener("click", () =>{
     weather.search();
 });
 
-keyUp.addEventListener("keyup", (event) =>{
+searchInput.addEventListener("keyup", (event) =>{
     if (event.key=="Enter"){
         weather.search();
     }
