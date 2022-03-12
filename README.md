@@ -10,6 +10,8 @@ Get the current weather of your favorite city using this visually appealing web 
 *Open Weather API 
 *Mdbootstrap
 
+![weather-app](https://user-images.githubusercontent.com/91095934/157995366-afccadcd-068d-417b-ad64-1bee1ff0a8a8.PNG)
+
 # Deployed Site
  https://thomle0418.github.io/weather-dashboard/
 
